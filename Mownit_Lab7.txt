@@ -1,0 +1,23 @@
+Automaty komórkowe - modelowanie epidemii
+
+Proszę zaimplementować model epidemii jako automat komórkowy. Przykładowe modele to np. SIR lub SIS.
+
+Program powinien generować:
+
+    wizualizację modelu (animacja, film itp)
+    wykresy zmian populacji z czasie
+
+Proszę zbadać działanie modelu dla różnych parametrów.
+
+Program i wyniki proszę zaprezentować w postaci notatnika Jupyter i wgrać 2 pliki w fromatach
+
+    ipynb
+    html 
+
+Dodatkowe linki:
+
+    Gra w życie
+    John Conway
+    Stephen Wolfram - "Teoria wszystkiego"
+    Stephen Wofram - A New Kind of Science
+    https://grimmel.github.io/posts/2020/10/blog-post-1/
