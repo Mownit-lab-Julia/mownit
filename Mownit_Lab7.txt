@@ -1,6 +1,7 @@
 Automaty komórkowe - modelowanie epidemii
 
-Proszę zaimplementować model epidemii jako automat komórkowy. Przykładowe modele to np. SIR lub SIS.
+Proszę zaimplementować model epidemii jako automat komórkowy [https://mathworld.wolfram.com/CellularAutomaton.html]. 
+Przykładowe modele to np. SIR lub SIS [https://en.wikipedia.org/wiki/Epidemic_models_on_lattices].
 
 Program powinien generować:
 
@@ -16,8 +17,8 @@ Program i wyniki proszę zaprezentować w postaci notatnika Jupyter i wgrać 2 p
 
 Dodatkowe linki:
 
-    Gra w życie
-    John Conway
-    Stephen Wolfram - "Teoria wszystkiego"
-    Stephen Wofram - A New Kind of Science
-    https://grimmel.github.io/posts/2020/10/blog-post-1/
+    Gra w życie [https://mathworld.wolfram.com/GameofLife.html]
+    John Conway [https://blogs.scientificamerican.com/observations/remembering-mathematical-magician-john-conway/]
+    Stephen Wolfram - "Teoria wszystkiego" [https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/]
+    Stephen Wofram - A New Kind of Science [https://www.wolframscience.com/nks/]
+    Przykład i porównanie implementacji automatu komórkowego w Julii i w Pythonie [https://grimmel.github.io/posts/2020/10/blog-post-1/]
