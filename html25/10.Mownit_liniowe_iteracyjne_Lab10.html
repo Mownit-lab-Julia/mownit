@@ -7600,6 +7600,17 @@ $$
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b9fdb42f-2be7-4202-8d71-ecb2f0e6342f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Uwaga: w kodzie poniżej przyjęto kryterium stopu $|| x_{i+1}-x_{i} || $</p>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=733ffd66-aa6e-4288-85a4-5909858d94fc">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -7701,6 +7712,15 @@ $$
 $\omega_{opt}=\frac{2}{1+\sqrt{1-\rho(M_{GS})}}$
 gdzie $\rho(M_{GS})=cos^2(\frac{\pi}{N})$ 1 pkt</li>
 <li>Czebyszewa z wykładu 2pkt</li>
+</ul>
+<p><b>UWAGA:</b></p>
+<ul>
+<li>W celu porównania metod należy wybrać jeden (ujednolicić) warunek stopu !<ul>
+<li>w tym notebooku pokazany jest przykład kryterium stopu $|| x_{i+1}-x_{i} ||&lt; \text{tol} $ z wartością bezwzgledną jako normą,</li>
+<li>na wykładzie w pseudokodzie metody Czebyszewa  jest przykład kryterium $|| A x_{i}-b ||&lt; \text{tol}$ bazującego na  normie euklidesowej (suma kwadratów odległosci).</li>
+</ul>
+</li>
+<li>W przypadku metody Czebyszewa i przeglądania siadki "odd-even" należy poprawnie policzyć liczbę iteracji (1 iteracja = przejscie "odd" + przejscie "even")</li>
 </ul>
 <h3 id="Zadanie-2-(1-pkt)">Zadanie 2 (1 pkt)<a class="anchor-link" href="#Zadanie-2-(1-pkt)">¶</a></h3><p>Dla ustalonego progu błędu porównaj liczbę iteracji każdej metody potrzebną do osiągnięcia zbieżności dla coraz większych rozmiarów problemu. Wyniki przedstaw na wykresie</p>
 <h3 id="Zadanie-3-(1-pkt)">Zadanie 3 (1 pkt)<a class="anchor-link" href="#Zadanie-3-(1-pkt)">¶</a></h3><p>Dla rozmiaru powyżej 120 pkt porównaj na jednym wykresie wartość maksymalnego błedu w danej iteracji w stosunku do błedu poczatkowego, w zależności od iteracji, dla każdej z metod. Błąd należy oszacować względem <b>otrzymanego ostatecznego rozwiązania </b> np. pod warunkiem osiągnięcia zbieżności - w taki sposób $$\epsilon(\text{iter})=\frac{\sum_{i=\text{iter}}^{\text{maxiter}}\max(\delta)}{\sum_{i=1}^{maxiter} \max(\delta)}$$</p>
