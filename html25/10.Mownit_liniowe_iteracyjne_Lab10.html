@@ -7716,8 +7716,8 @@ gdzie $\rho(M_{GS})=cos^2(\frac{\pi}{N})$ 1 pkt</li>
 <p><b>UWAGA:</b></p>
 <ul>
 <li>W celu porównania metod należy wybrać jeden (ujednolicić) warunek stopu !<ul>
-<li>w tym notebooku pokazany jest przykład kryterium stopu $|| x_{i+1}-x_{i} ||&lt; \text{tol} $ z  normą maksymalną,</li>
-<li>na wykładzie w pseudokodzie metody Czebyszewa  jest przykład kryterium $|| A x_{i}-b ||&lt; \text{tol}$ bazującego na  normie euklidesowej (suma kwadratów odległosci).</li>
+<li>w tym notebooku pokazany jest przykład kryterium stopu $|| x^{(i+1)}-x^{(i)} ||&lt; \text{tol} $ z  normą maksymalną,</li>
+<li>na wykładzie w pseudokodzie metody Czebyszewa  jest przykład kryterium $\frac{|| A x^{(i)}-b ||}{||b||}&lt; \text{tol}$ bazującego na  normie euklidesowej (suma kwadratów odległosci).</li>
 </ul>
 </li>
 <li>W przypadku metody Czebyszewa i przeglądania siadki "odd-even" należy poprawnie policzyć liczbę iteracji (1 iteracja = przejscie "odd" + przejscie "even")</li>
